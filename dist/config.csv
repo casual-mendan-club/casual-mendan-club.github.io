@@ -1,0 +1,127 @@
+,"Kitekure Config Sheet v1.1.3
+Check out how to use",,,,,,このシートに個人情報を含めないでください
+Option,Value1,Value2,Value3,Value4,Value5,* Required,Description
+-Basics-,,,,,,,
+Event Title,Casual Mendan,,,,,*,イベント名。サイトのタイトルにも使われます。
+Date (Local Time),2024/08/04 14:00,,,,,*,"イベントの開始日時（現地時刻）。
+どのような書式でも構いません。"
+Date (UTC),2024/08/04 14:00,,,,,,"イベント開始日時をUTC（協定世界時）で入力してください。カウントダウンタイマーに使用します。
+「YYYY/MM/DD 00:00」の書式で入力してください（24時間表記）。
+UTCへの変換方法"
+Hashtag,カジュメン,,,,,,"イベントのTwitterハッシュタグ。1つだけ指定できます。「#」記号は含めないでください。
+設定すると、ツイートボタンを押したときにハッシュタグ付きでツイートされるようになります。"
+Hide on Search Results,-,,,,,,"Googleなどの検索結果に載らないようにします。 通常は無効（検索に載る）の設定にしておきましょう。
+デフォルト: -"
+-Venue-,,,,,,,
+,Heading,Venue Name,URL (Optional),,,,
+Venue,Venue,音楽喫茶 茶箱,https://sabaco.jp/,,,*,"イベント開催場所の設定。
+[Heading]
+イベント開催場所情報の見出し。（デフォルト: Venue）
+[Venue Name]
+開催地名（店名）。配信のみの場合は配信サイト名を入力するとよいでしょう。
+[URL (Optional)]
+開催地のウェブサイトURL（未入力可）。"
+,Address,Google Map Embed Code,,,,,
+Address,〒162-0051 東京都新宿区西早稲田2丁目1-19 YKビル B1F,!1m14!1m8!1m3!1d12959.198174463023!2d139.7174666!3d35.7065502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d1c3da09d8b%3A0x10c76fd46b7ed7f2!2z6Z-z5qW95Zar6Iy2IOiMtueusQ!5e0!3m2!1sja!2sjp!4v1720052056097!5m2!1sja!2sjp,,,,,"[Address]
+イベント開催地の住所。
+[Google Map Embed Code]
+Googleマップの埋め込みコード。以下の赤文字部分を入力してください。
+<iframe src=""www.google.com/maps/embed?pb=[ココの文字列だけ記述]"" width=""600""...></iframe>"
+-Design-,,,,,,,
+Theme,Light,,,,,*,テーマカラー。「Dark」「Light」から選んでください。
+,File name,,,,,,
+Site Icon (favicon),favicon.png,,,,,*,"サイトのアイコン（favicon）。画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
+画像は 32*32px のpngをご用意ください。"
+Share Image,og-image.jpg,,,,,*,"TwitterなどのSNSにシェアされたとき表示する画像。 サイト上には表示されませんが、シェアされたときの見た目に影響します。
+画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
+画像は 1200 * 630px の jpg または png ファイルをご用意ください。"
+Accent Color (Hex),,,,,,,"アクセントカラー。
+16進数カラーコード（#000000）で記入してください。
+未入力の場合、Kitekureが用意した規定の色が使われます。"
+-Header-,,,,,,,
+,Media Type,File name,,,,,
+Header,None,header.jpg,,,,*,"[Media type]
+ヘッダに画像・動画のどちらを表示するか選んでください。
+[File name]
+画像・動画素材のファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
+[Media Type: Image]
+1080 * 1080px の jpg、png、gif ファイル。ファイルサイズはできるだけ300KB以下に抑えてください。
+[Media Type: Video]
+720 * 720px の mp4 ファイル。ファイルサイズはできるだけ5MB以下に抑えてください。動画はループ再生されます。
+"
+Reverse Title Color on Image,-,,,,,,"「Header Title」のうち、画像に重なった部分のテキスト色を反転します（PCでのみ有効）。タイトルの読みやすい方を選んでください。
+デフォルト: ✅"
+Header Subtitle,Aug 4 2024 / OPEN 14:00 CLOSE 20:00 (JST),,,,,,"【増やせるオプション】
+イベントタイトルに続く見出し。通常は、開催日時・場所・ゲストの名前などを簡潔にまとめるとよいでしょう。
+2行以上表示するには、スプレッドシート上で「Header Subtitle」行を増やしてください。"
+,Service,Channel,,,,,
+Stream,None,,,,,,"イベントのライブ配信をする場合に入力してください。
+
+[Service] 配信元のサイトを選択してください。現在は2サービスから選べます。
+[Channel: Twitch]
+TwitchのチャンネルID「www.twitch.tv/[ここの値]」を入力してください。
+[Channel: YouTube Live]
+YouTubeの動画ID「www.youtube.com/watch?v=[ここの値]」を入力してください。"
+,Label,URL,,,,,
+Action Button,,,,,,,"サイト訪問者がイベントに参加するためのボタン。
+[Label]
+ボタンの文言。
+例) 配信イベントなら「Watch」、チケットの購入が必要なら「Buy Ticket」などを入力するとよいでしょう。短く言い切るのがコツです。
+[URL]
+ボタンをクリックしたとき遷移するURL。
+例) 配信イベントなら配信URL、チケット制なら購入サイトURLを入力するとよいでしょう。"
+-Callout-,,,,,,,
+Callout,,,,,,,"【増やせるオプション】
+重要度の高いお知らせをアナウンスする欄。「Header」直下に表示されます。
+通常は空欄にしておき、日程の変更、出演者変更、入場制限など特に重要な事柄があったときに入力するとよいでしょう。"
+-Introduction-,,,,,,,
+Introduction Heading,About,,,,,*,イベント紹介セクションの見出し。
+Introduction,"Hello, World!",,,,,*,"【増やせるオプション】
+イベント紹介文。イベントの主旨やアピールポイントを簡潔に記述するとよいでしょう。
+文を改行するには、スプレッドシート上で「Introduction」行を増やしてください。2行以上表示することができます。"
+-Schedule-,,,,,,,
+Schedule Heading,Schedule,,,,,*,スケジュールセクションの見出し。
+,Time,Title,Description (Optional),,,,
+Schedule,-,TBD,-,,,*,"【増やせるオプション】
+イベントスケジュール（タイムテーブル）。
+スプレッドシート上で「Schedule」行を増やすことで、数を増やすことができます。
+
+[Time]
+スケジュールの開始時間。
+[Title]
+該当スケジュールの見出し。通常は、出演者名を入力するとよいでしょう。
+Tips: 空欄にすることで、スケジュールのセクションすべてを非表示にします。タイムテーブルが未定のときにご活用ください。
+[Description]
+該当スケジュールの内容説明。（未入力可）"
+-Member-,,,,,,,
+Member Heading,DJ/VJ,,,,,*,メンバー紹介セクションの見出し。
+,Name,Image File Name,Role (Optional),Profile,Website URL (Optional),,
+Member,TBD,,,,,*,"【増やせるオプション】
+イベント出演者の紹介。
+スプレッドシート上で「Member」行を増やすことで、数を増やすことができます。
+
+[Name]
+出演者名。
+[Image File Name]
+出演者の画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
+ファイルは 360px * 360px の jpg、png、gif のいずれかで、1画像あたりのファイルサイズはできるだけ100KB以下に抑えてください。
+[Role]
+出演者の役割（例:DJ）。省略可。
+[Profile]
+出演者のプロフィール。
+[Website URL]
+出演者のウェブサイト。省略可。"
+-Overview-,,,,,,,
+,Heading,Content,,,,,
+Overview,,,,,,,"【増やせるオプション】
+イベント概要表。スプレッドシート上で「Overview」行を増やすことで、数を増やすことができます。
+[Heading]
+見出し。　例) Door
+[Content]
+見出しに対応する説明。　例) 1500JPY"
+,Content,,,,,,
+Notice,,,,,,,"【増やせるオプション】
+イベントの注意事項や但し書き。
+スプレッドシート上で「Notice」行を増やすことで、数を増やすことができます。"
+-Footer-,,,,,,,
+Footer Text,,,,,,,フッター（最下部）のテキスト。主催者表記等を入力するとよいでしょう。
