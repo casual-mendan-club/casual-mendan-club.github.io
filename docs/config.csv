@@ -3,9 +3,9 @@ Check out how to use",,,,,,このシートに個人情報を含めないでく�
 Option,Value1,Value2,Value3,Value4,Value5,* Required,Description
 -Basics-,,,,,,,
 Event Title,Casual Mendan,,,,,*,イベント名。サイトのタイトルにも使われます。
-Date (Local Time),2024/08/04 14:00,,,,,*,"イベントの開始日時（現地時刻）。
+Date (Local Time),2024/08/04 14:00 - 20:00,,,,,*,"イベントの開始日時（現地時刻）。
 どのような書式でも構いません。"
-Date (UTC),2024/08/04 14:00,,,,,,"イベント開始日時をUTC（協定世界時）で入力してください。カウントダウンタイマーに使用します。
+Date (UTC),2024/08/04 5:00,,,,,,"イベント開始日時をUTC（協定世界時）で入力してください。カウントダウンタイマーに使用します。
 「YYYY/MM/DD 00:00」の書式で入力してください（24時間表記）。
 UTCへの変換方法"
 Hashtag,カジュメン,,,,,,"イベントのTwitterハッシュタグ。1つだけ指定できます。「#」記号は含めないでください。
@@ -30,9 +30,9 @@ Googleマップの埋め込みコード。以下の赤文字部分を入力し�
 -Design-,,,,,,,
 Theme,Light,,,,,*,テーマカラー。「Dark」「Light」から選んでください。
 ,File name,,,,,,
-Site Icon (favicon),favicon.png,,,,,*,"サイトのアイコン（favicon）。画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
+Site Icon (favicon),favicon.ico,,,,,*,"サイトのアイコン（favicon）。画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
 画像は 32*32px のpngをご用意ください。"
-Share Image,og-image.jpg,,,,,*,"TwitterなどのSNSにシェアされたとき表示する画像。 サイト上には表示されませんが、シェアされたときの見た目に影響します。
+Share Image,assets/images/og-image.jpg,,,,,*,"TwitterなどのSNSにシェアされたとき表示する画像。 サイト上には表示されませんが、シェアされたときの見た目に影響します。
 画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
 画像は 1200 * 630px の jpg または png ファイルをご用意ください。"
 Accent Color (Hex),,,,,,,"アクセントカラー。
@@ -40,7 +40,7 @@ Accent Color (Hex),,,,,,,"アクセントカラー。
 未入力の場合、Kitekureが用意した規定の色が使われます。"
 -Header-,,,,,,,
 ,Media Type,File name,,,,,
-Header,None,header.jpg,,,,*,"[Media type]
+Header,Image,assets/images/header.png,,,,*,"[Media type]
 ヘッダに画像・動画のどちらを表示するか選んでください。
 [File name]
 画像・動画素材のファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
@@ -76,7 +76,7 @@ Callout,,,,,,,"【増やせるオプション】
 通常は空欄にしておき、日程の変更、出演者変更、入場制限など特に重要な事柄があったときに入力するとよいでしょう。"
 -Introduction-,,,,,,,
 Introduction Heading,About,,,,,*,イベント紹介セクションの見出し。
-Introduction,"Hello, World!",,,,,*,"【増やせるオプション】
+Introduction,こんにちは！私たちのパーティでは、イノベーションとコラボレーションを大切にしています。未来を共に創る仲間を探しています。カジュアルな面談の場で、お互いの音楽や映像、ドリンクについてのビジョンをシェアしましょう。興味がありましたら、ぜひ面談の機会をいただければと思います。あなたのご参加をお待ちしています！,,,,,*,"【増やせるオプション】
 イベント紹介文。イベントの主旨やアピールポイントを簡潔に記述するとよいでしょう。
 文を改行するには、スプレッドシート上で「Introduction」行を増やしてください。2行以上表示することができます。"
 -Schedule-,,,,,,,
@@ -96,7 +96,7 @@ Tips: 空欄にすることで、スケジュールのセクションすべて�
 -Member-,,,,,,,
 Member Heading,DJ/VJ,,,,,*,メンバー紹介セクションの見出し。
 ,Name,Image File Name,Role (Optional),Profile,Website URL (Optional),,
-Member,TBD,,,,,*,"【増やせるオプション】
+Member,shivaduke,assets/members/shivaduke.jpg,DJ,桜蘭高校DJ部,,*,"【増やせるオプション】
 イベント出演者の紹介。
 スプレッドシート上で「Member」行を増やすことで、数を増やすことができます。
 
@@ -111,16 +111,25 @@ Member,TBD,,,,,*,"【増やせるオプション】
 出演者のプロフィール。
 [Website URL]
 出演者のウェブサイト。省略可。"
+Member,いぬドッグ博士,assets/members/shelf703.png,DJ,ｳｩ~ﾜﾝﾜﾝ,https://shelf703.tumblr.com/,,
+Member,masawada,assets/members/masawada.jpg,DJ,美味しんぼにハマり始めています,https://masawada.me,,
+Member,maku693,assets/members/maku693.png,DJ,こんちわ〜,,,
+Member,polamjag,assets/members/polamjag.jpg,DJ,Vice President of Music Library,,,
+Member,tqn9,assets/members/tqn9.jpg,DJ,謎の美女マンの兄です。お酒を飲みます。,,,
+Member,tymikii,assets/members/tymikii.jpg,DJ,縦型動画で脳を溶かします,,,
+Member,ねおりん,assets/members/noir_neo.png,DJ,オタクをひとつまみ,https://twitter.com/noir_neo,,
+Member,Lucky,assets/members/lucky.png,VJ,Lucky!!,,,
+Member,Yadex205,assets/members/yadex205.png,VJ,綾小路きみまろの夢女,https://yadex205.com,,
 -Overview-,,,,,,,
 ,Heading,Content,,,,,
-Overview,,,,,,,"【増やせるオプション】
+Overview,Entrance Fee (1 drink included),2000 yen,,,,,"【増やせるオプション】
 イベント概要表。スプレッドシート上で「Overview」行を増やすことで、数を増やすことができます。
 [Heading]
 見出し。　例) Door
 [Content]
 見出しに対応する説明。　例) 1500JPY"
 ,Content,,,,,,
-Notice,,,,,,,"【増やせるオプション】
+Notice,ご来場の際は手指の消毒・マスクを着用するなどの感染症対策をお願いいたします。発熱・体調不良の方は来場をご遠慮ください。,,,,,,"【増やせるオプション】
 イベントの注意事項や但し書き。
 スプレッドシート上で「Notice」行を増やすことで、数を増やすことができます。"
 -Footer-,,,,,,,
