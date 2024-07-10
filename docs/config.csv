@@ -32,7 +32,7 @@ Theme,Light,,,,,*,テーマカラー。「Dark」「Light」から選んでく�
 ,File name,,,,,,
 Site Icon (favicon),favicon.ico,,,,,*,"サイトのアイコン（favicon）。画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
 画像は 32*32px のpngをご用意ください。"
-Share Image,assets/images/og-image.jpg,,,,,*,"TwitterなどのSNSにシェアされたとき表示する画像。 サイト上には表示されませんが、シェアされたときの見た目に影響します。
+Share Image,assets/images/og-image.png,,,,,*,"TwitterなどのSNSにシェアされたとき表示する画像。 サイト上には表示されませんが、シェアされたときの見た目に影響します。
 画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
 画像は 1200 * 630px の jpg または png ファイルをご用意ください。"
 Accent Color (Hex),,,,,,,"アクセントカラー。
