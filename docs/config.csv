@@ -82,7 +82,7 @@ Introduction,こんにちは！私たちのパーティでは、イノベーシ�
 -Schedule-,,,,,,,
 Schedule Heading,Schedule,,,,,*,スケジュールセクションの見出し。
 ,Time,Title,Description (Optional),,,,
-Schedule,14:00,masawada,四つ打ちっぽいの,,,*,"【増やせるオプション】
+Schedule,14:00,masawada / Yadex205,四つ打ちっぽいの,,,*,"【増やせるオプション】
 イベントスケジュール（タイムテーブル）。
 スプレッドシート上で「Schedule」行を増やすことで、数を増やすことができます。
 
@@ -93,13 +93,13 @@ Schedule,14:00,masawada,四つ打ちっぽいの,,,*,"【増やせるオプシ�
 Tips: 空欄にすることで、スケジュールのセクションすべてを非表示にします。タイムテーブルが未定のときにご活用ください。
 [Description]
 該当スケジュールの内容説明。（未入力可）"
-Schedule,14:45,いぬドッグ博士,みんなが楽しいやつ,,,,
-Schedule,15:30,maku693,夏,,,,
-Schedule,16:15,ねおりん,House など,,,,
-Schedule,17:00,tymikii,BPM130~,,,,
-Schedule,17:45,tqn9,TranceかHardTechno,,,,
-Schedule,18:30,polamjag,自動車四つ打ち,,,,
-Schedule,19:15,shivaduke,ハウス近縁,,,,
+Schedule,14:45,いぬドッグ博士 / Yadex205,みんなが楽しいやつ,,,,
+Schedule,15:30,maku693 / Lucky,夏,,,,
+Schedule,16:15,ねおりん / Lucky,House など,,,,
+Schedule,17:00,tymikii / Yadex205,BPM130~,,,,
+Schedule,17:45,tqn9 / Yadex205,TranceかHardTechno,,,,
+Schedule,18:30,polamjag / Lucky,自動車四つ打ち,,,,
+Schedule,19:15,shivaduke / Lucky,ハウス近縁,,,,
 -Member-,,,,,,,
 Member Heading,DJ/VJ,,,,,*,メンバー紹介セクションの見出し。
 ,Name,Image File Name,Role (Optional),Profile,Website URL (Optional),,
