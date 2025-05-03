@@ -2,10 +2,10 @@
 Check out how to use",,,,,,このシートに個人情報を含めないでください
 Option,Value1,Value2,Value3,Value4,Value5,* Required,Description
 -Basics-,,,,,,,
-Event Title,Casual Mendan,,,,,*,イベント名。サイトのタイトルにも使われます。
-Date (Local Time),2024/08/04 14:00 - 20:00,,,,,*,"イベントの開始日時（現地時刻）。
+Event Title,Casual Mendan #2,,,,,*,イベント名。サイトのタイトルにも使われます。
+Date (Local Time),2025/06/29 14:00 - 20:00,,,,,*,"イベントの開始日時（現地時刻）。
 どのような書式でも構いません。"
-Date (UTC),2024/08/04 5:00,,,,,,"イベント開始日時をUTC（協定世界時）で入力してください。カウントダウンタイマーに使用します。
+Date (UTC),2025/06/29 5:00,,,,,,"イベント開始日時をUTC（協定世界時）で入力してください。カウントダウンタイマーに使用します。
 「YYYY/MM/DD 00:00」の書式で入力してください（24時間表記）。
 UTCへの変換方法"
 Hashtag,カジュメン,,,,,,"イベントのTwitterハッシュタグ。1つだけ指定できます。「#」記号は含めないでください。
@@ -30,7 +30,7 @@ Googleマップの埋め込みコード。以下の赤文字部分を入力し�
 -Design-,,,,,,,
 Theme,Light,,,,,*,テーマカラー。「Dark」「Light」から選んでください。
 ,File name,,,,,,
-Site Icon (favicon),favicon.ico,,,,,*,"サイトのアイコン（favicon）。画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
+Site Icon (favicon),favicon.png,,,,,*,"サイトのアイコン（favicon）。画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
 画像は 32*32px のpngをご用意ください。"
 Share Image,assets/images/og-image.png,,,,,*,"TwitterなどのSNSにシェアされたとき表示する画像。 サイト上には表示されませんが、シェアされたときの見た目に影響します。
 画像ファイル名を、英数字のテキストで入力してください。拡張子も含めてください。
@@ -51,7 +51,7 @@ Header,Image,assets/images/header.png,,,,*,"[Media type]
 "
 Reverse Title Color on Image,-,,,,,,"「Header Title」のうち、画像に重なった部分のテキスト色を反転します（PCでのみ有効）。タイトルの読みやすい方を選んでください。
 デフォルト: ✅"
-Header Subtitle,Aug 4 2024 / OPEN 14:00 CLOSE 20:00 (JST),,,,,,"【増やせるオプション】
+Header Subtitle,June 29 2025 / OPEN 14:00 CLOSE 20:00 (JST),,,,,,"【増やせるオプション】
 イベントタイトルに続く見出し。通常は、開催日時・場所・ゲストの名前などを簡潔にまとめるとよいでしょう。
 2行以上表示するには、スプレッドシート上で「Header Subtitle」行を増やしてください。"
 ,Service,Channel,,,,,
@@ -82,7 +82,7 @@ Introduction,こんにちは！私たちのパーティでは、イノベーシ�
 -Schedule-,,,,,,,
 Schedule Heading,Schedule,,,,,*,スケジュールセクションの見出し。
 ,Time,Title,Description (Optional),,,,
-Schedule,14:00,masawada / Yadex205,四つ打ちっぽいの,,,*,"【増やせるオプション】
+Schedule,14:00,Open,TBD,,,*,"【増やせるオプション】
 イベントスケジュール（タイムテーブル）。
 スプレッドシート上で「Schedule」行を増やすことで、数を増やすことができます。
 
@@ -93,17 +93,18 @@ Schedule,14:00,masawada / Yadex205,四つ打ちっぽいの,,,*,"【増やせる
 Tips: 空欄にすることで、スケジュールのセクションすべてを非表示にします。タイムテーブルが未定のときにご活用ください。
 [Description]
 該当スケジュールの内容説明。（未入力可）"
-Schedule,14:45,いぬドッグ博士 / Yadex205,みんなが楽しいやつ,,,,
-Schedule,15:30,maku693 / Lucky,夏,,,,
-Schedule,16:15,ねおりん / Lucky,House など,,,,
-Schedule,17:00,tymikii / Yadex205,BPM130~,,,,
-Schedule,17:45,tqn9 / Yadex205,TranceかHardTechno,,,,
-Schedule,18:30,polamjag / Lucky,自動車四つ打ち,,,,
-Schedule,19:15,shivaduke / Lucky,ハウス近縁,,,,
 -Member-,,,,,,,
 Member Heading,DJ/VJ,,,,,*,メンバー紹介セクションの見出し。
 ,Name,Image File Name,Role (Optional),Profile,Website URL (Optional),,
-Member,shivaduke,assets/members/shivaduke.jpg,DJ,桜蘭高校DJ部,,*,"【増やせるオプション】
+Member,esuf11,assets/members/esuf11.jpg,Guest DJ,目の前をぶち抜くプラズマ,,,
+Member,mactkg,assets/members/mactkg.jpg,Guest DJ,風通しの良さをお伝えできればと思います,,,
+Member,Saina,assets/members/saina.png,Guest VJ,新卒1年目で「カジュアル面談やります！」ってやばそう,https://www.sainakey.com/,,
+Member,wonyu,assets/members/wonyu.jpg,Guest VJ,やっていきをやっていき💪💪💪,https://scrapbox.io/w0nyv/,,
+Member,maku693,assets/members/maku693.png,DJ,こんちわ〜,,,
+Member,masawada,assets/members/masawada.jpg,DJ,好きな寿司ネタは赤貝,https://masawada.me,,
+Member,polamjag,assets/members/polamjag.jpg,DJ,Senior iTunes Operator/道路交通愛好家,,,
+Member,shivaduke,assets/members/shivaduke_2.jpg,DJ/VJ,桜蘭高校DJ部,,,
+Member,いぬドッグ博士,assets/members/shelf703.png,DJ,うぅ～わんわん,https://shelf703.tumblr.com/,*,"【増やせるオプション】
 イベント出演者の紹介。
 スプレッドシート上で「Member」行を増やすことで、数を増やすことができます。
 
@@ -118,15 +119,7 @@ Member,shivaduke,assets/members/shivaduke.jpg,DJ,桜蘭高校DJ部,,*,"【増や
 出演者のプロフィール。
 [Website URL]
 出演者のウェブサイト。省略可。"
-Member,いぬドッグ博士,assets/members/shelf703.png,DJ,ｳｩ~ﾜﾝﾜﾝ,https://shelf703.tumblr.com/,,
-Member,masawada,assets/members/masawada.jpg,DJ,寿司食べたい,https://masawada.me,,
-Member,maku693,assets/members/maku693.png,DJ,こんちわ〜,,,
-Member,polamjag,assets/members/polamjag.jpg,DJ,Vice President of Music Library,,,
-Member,tqn9,assets/members/tqn9.jpg,DJ,謎の美女マンの兄です。お酒を飲みます。,,,
-Member,tymikii,assets/members/tymikii.jpg,DJ,縦型動画で脳を溶かします,,,
-Member,ねおりん,assets/members/noir_neo.png,DJ,オタクをひとつまみ,https://twitter.com/noir_neo,,
-Member,Lucky,assets/members/lucky.png,VJ,Lucky!!,,,
-Member,Yadex205,assets/members/yadex205.png,VJ,綾小路きみまろの夢女,https://yadex205.com,,
+Member,ねおりん,assets/members/noir_neo.png,DJ,にぇ,,,
 -Overview-,,,,,,,
 ,Heading,Content,,,,,
 Overview,Entrance Fee (1 drink included),"2,000 yen",,,,,"【増やせるオプション】
