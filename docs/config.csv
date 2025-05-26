@@ -82,7 +82,7 @@ Introduction,こんにちは！私たちのパーティでは、イノベーシ�
 -Schedule-,,,,,,,
 Schedule Heading,Schedule,,,,,*,スケジュールセクションの見出し。
 ,Time,Title,Description (Optional),,,,
-Schedule,14:00,Open,TBD,,,*,"【増やせるオプション】
+Schedule,14:00,shivaduke / Saina,ハウス近縁,,,*,"【増やせるオプション】
 イベントスケジュール（タイムテーブル）。
 スプレッドシート上で「Schedule」行を増やすことで、数を増やすことができます。
 
@@ -93,6 +93,13 @@ Schedule,14:00,Open,TBD,,,*,"【増やせるオプション】
 Tips: 空欄にすることで、スケジュールのセクションすべてを非表示にします。タイムテーブルが未定のときにご活用ください。
 [Description]
 該当スケジュールの内容説明。（未入力可）"
+Schedule,14:45,ねおりん / Saina,House など,,,,
+Schedule,15:30,mactkg / Saina,ハウスとテクノ,,,,
+Schedule,16:15,polamjag / wonyu,4つ打ち,,,,
+Schedule,17:00,esuf11 / wonyu,"ハウス, テクノ",,,,
+Schedule,17:45,maku693 / wonyu,"House, DnB, 2Step, J-POP",,,,
+Schedule,18:30,masawada / shivaduke,夏っぽいな,,,,
+Schedule,19:15,いぬドッグ博士 / shivaduke,ウキウキのやつ,,,,
 -Member-,,,,,,,
 Member Heading,DJ/VJ,,,,,*,メンバー紹介セクションの見出し。
 ,Name,Image File Name,Role (Optional),Profile,Website URL (Optional),,
