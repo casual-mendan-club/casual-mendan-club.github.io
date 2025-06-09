@@ -63,7 +63,7 @@ TwitchのチャンネルID「www.twitch.tv/[ここの値]」を入力してく�
 [Channel: YouTube Live]
 YouTubeの動画ID「www.youtube.com/watch?v=[ここの値]」を入力してください。"
 ,Label,URL,,,,,
-Action Button,,,,,,,"サイト訪問者がイベントに参加するためのボタン。
+Action Button,See details on twipla,https://twipla.jp/events/680750,,,,,"サイト訪問者がイベントに参加するためのボタン。
 [Label]
 ボタンの文言。
 例) 配信イベントなら「Watch」、チケットの購入が必要なら「Buy Ticket」などを入力するとよいでしょう。短く言い切るのがコツです。
@@ -71,7 +71,7 @@ Action Button,,,,,,,"サイト訪問者がイベントに参加するための�
 ボタンをクリックしたとき遷移するURL。
 例) 配信イベントなら配信URL、チケット制なら購入サイトURLを入力するとよいでしょう。"
 -Callout-,,,,,,,
-Callout,,,,,,,"【増やせるオプション】
+Callout,必須ではありませんがtwiplaの参加登録をおすすめします。入場制限を実施する際はtwiplaで登録済の方から優先的にご入場いただきます,,,,,,"【増やせるオプション】
 重要度の高いお知らせをアナウンスする欄。「Header」直下に表示されます。
 通常は空欄にしておき、日程の変更、出演者変更、入場制限など特に重要な事柄があったときに入力するとよいでしょう。"
 -Introduction-,,,,,,,
